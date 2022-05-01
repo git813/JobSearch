@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <div class="header__navbar-block">
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">
+                                    Trang chủ
+                                </a>
+                            </li>
+                        </div>
+                        <div class="header__navbar-block">
+                            <li class="header__navbar-item">
+                                <a href="./tim-viec-lam.html" class="header__navbar-item-link">Việc làm</a>
+                            </li>
+                            <ul class="header__navbar-subnav">
+                                <li class="vertical-align">
+                                    <i class="header__navbar-subnav-icon fa-solid fa-magnifying-glass"></i>
+                                    <a class="header__navbar-subnav-item" href="./tim-viec-lam.html">Tìm kiếm việc làm</a>
+                                </li>
+                                <li class="vertical-align">
+                                    <i class="header__navbar-subnav-icon fa-solid fa-business-time"></i>
+                                    <a class="header__navbar-subnav-item" href="/viec-ung-tuyen.html">Việc làm đã ứng tuyển</a>
+                                </li>
+                                <li class="vertical-align">
+                                    <i class="header__navbar-subnav-icon fa-solid fa-floppy-disk"></i>
+                                    <a class="header__navbar-subnav-item" href="/viec-da-luu.html">Việc làm đã lưu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__navbar-block">
+                            <li class="header__navbar-item">
+                                <a href="/cong-ty.html" class="header__navbar-item-link">Công ty</a>
+                            </li>
+                            <ul class="header__navbar-subnav">
+                                <li class="vertical-align">
+                                    <i class="header__navbar-subnav-icon fa-solid fa-building"></i>
+                                    <a class="header__navbar-subnav-item" href="/cong-ty.html">Danh sách công ty</a>
+                                </li>
+                                <li class="vertical-align">
+                                    <i class="header__navbar-subnav-icon fa-solid fa-briefcase"></i>
+                                    <a class="header__navbar-subnav-item" href="">Công ty đã ứng tuyển</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__navbar-block">
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">Mẫu CV</a>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <button class="header__navbar-item-btn">
+                            <a href="" class="header__navbar-item-link">Đăng ký</a>
+                        </button>
+                        <button class="header__navbar-item-btn">
+                            <a href="" class="header__navbar-item-link">Đăng nhập</a>
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="container__col-search">
+                <div class="container__header">
+                    <h1>Tìm kiếm công việc theo nhu cầu</h1>
+                </div>
+                <div class="container__search">
+                    <div class="container__search-col-input">
+                        <input type="text" class="container__search-input" placeholder="Tên công việc, vị trí bạn muốn ứng tuyển...">
+                        <div class="container__search-option">
+                            <div class="container__search-form-group">
+                                Ngành nghề
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="container__search-form-group">
+                                Lĩnh vực công ty
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="container__search-form-group">
+                                Địa điểm
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="container__search-form-group">
+                                Cấp bậc
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="container__search-form-group">
+                                Hình thức làm việc
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="container__search-form-group">
+                                Mức lương
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__search-col-button">
+                        <button class="container__search-btn btn">Tìm việc</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__col-img">
+                   <img src="./assets/img/ikigai.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- Registor -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__pocily-text">
+                                Bằng việc đăng ký, bạn đã đồng ý chính sách
+                                <a href="" class="auth-form__text-link">Bảo mật</a> &
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                            </p> 
+                        </div>
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__control-back">Quay lại</button>
+                            <button class="btn btn--primary">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="" class="btn btn--with-icon auth-form__social--facebook">
+                        <i class="auth-form__social-icon fa-brands fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Facebook
+                        </span> 
+                    </a>
+                    <a href="" class="btn btn--with-icon auth-form__social--google">
+                        <img class="auth-form__social-icon" src="./assets/img/google.png" alt="">
+                        <span class="auth-form__social-title">
+                            Kết nối với Google
+                        </span> 
+                    </a>
+                </div>
+            </div> -->
+            <!-- Login -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__aside">
+                                <a href="" class="auth-form__help">Quên mật khẩu</a>
+                        </div>
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__control-back">Quay lại</button>
+                            <button class="btn btn--primary">Đăng nhập</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="" class="btn btn--with-icon auth-form__social--facebook">
+                        <i class="auth-form__social-icon fa-brands fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Facebook
+                        </span> 
+                    </a>
+                    <a href="" class="btn btn--with-icon auth-form__social--google">
+                        <img class="auth-form__social-icon" src="./assets/img/google.png" alt="">
+
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Google
+                        </span> 
+                    </a>
+                </div>
+            </div> -->
+        <!-- </div>
+    </div> -->
+</body>
+</html>

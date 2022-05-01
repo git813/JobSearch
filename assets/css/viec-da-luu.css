@@ -1,0 +1,145 @@
+/* Container tim viec*/
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 78px;
+    background-color: #f4f4f4;
+}
+
+.container__header {
+    width: 100%;
+    margin-top: 32px;
+    padding: 12px 2%;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.container__header p {
+    font-size: 1.4rem;
+}
+
+.container__content {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.container__job-list {
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    min-height: 150vh;
+    margin-bottom: 32px;
+}
+
+.job-list__number {
+    border-bottom: solid 1px #dbdbdb;
+    padding: 4px 0;
+}
+.container__job-list h3 {
+    font-size: 1.6rem;
+    padding: 0 2%;
+    font-weight: 400;
+}
+
+.job-list__filter {
+    display: flex;
+    align-items: center;
+    color: #b6b5b5;
+    padding: 4px 0;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.job-list__list-item {
+    padding-bottom: 8px;
+}
+
+.job-list__item {
+    width: 98%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 1px #dbdbdb;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: #b6b5b5;
+    background-color: #e6f5f8;
+}
+
+.job-list__item-col-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-list__item-col-logo > img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.job-list__item-col-logo {
+    width: 10%;
+}
+
+.job-list__item-col-info {
+    width: 65%;
+}
+
+.job-list__item-col-info > .row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.job-list__item-col-info a {
+    color: var(--black-color);
+}
+
+.job-list__item-col-info > .row2 {
+    font-size: 1.2rem;
+    padding: 4px 0;
+}
+
+.job-list__item-col-info > .row3 {
+    display: flex;
+}
+
+.job-list__item .tag {
+    font-size: 1.2rem;
+    padding: 4px;
+    margin: 8px 2px;
+    background-color: #dbdbdb;
+    border-radius: 2px;
+    color: rgb(127, 123, 123);
+}
+
+.job-list__item-col-info .row1:hover, 
+.job-list__item-col-info .row2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.job-list__item-col-apply {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0px 12px 12px 2px;
+    font-size: 1.6rem;
+}
+
+.job-list__item-col-apply > .save-icon {
+    align-self: flex-end;
+    color: var(--green-color);
+    cursor: pointer;
+}
+
+.job-list__item-col-apply .remove-job {
+    cursor: pointer;
+}
