@@ -9,14 +9,6 @@
     background-color: #f4f4f4;
 }
 
-.container__pad {
-    width: 100%;
-    border: solid 1px;
-    border-left: none;
-    border-right: none;
-    border-color: #dbdbdb;
-}
-
 .container__box-search {
     background-color: var(--white-color);
     width: 100%;
