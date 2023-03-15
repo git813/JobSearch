@@ -1,2 +1,2 @@
-# JobSearchApp
+# JobFinder
  
